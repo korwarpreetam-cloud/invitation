@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kamal & Sarika - Wedding Invitation</title>
+    <meta name="description"
+        content="You are cordially invited to celebrate the wedding of Kamal & Sarika. Join us for a beautiful celebration of love.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Great+Vibes&family=Josefin+Sans:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-ornament"></div>
+        <span class="loader-text">Opening Invitation</span>
+    </div>
+
+    <!-- Falling Flower Petals (global overlay) -->
+    <div class="petals-container" id="petalsContainer"></div>
+
+    <!-- Hero / Landing Page -->
+    <section id="hero" class="hero-section">
+        <!-- Floating Sky Lanterns (CSS-based) -->
+        <div class="lanterns-container" id="lanternsContainer"></div>
+
+        <!-- Sparkle particles -->
+        <div class="sparkles" id="sparkles"></div>
+
+        <!-- Names overlay -->
+        <div class="hero-content">
+            <h1 class="groom-name" id="groomName">VISHU</h1>
+            <p class="weds-text">W E D S</p>
+            <h1 class="bride-name" id="brideName">KAVYA</h1>
+        </div>
+
+        <!-- Temple at bottom -->
+        <div class="temple-container" id="templeContainer">
+            <img src="assets/image.png" alt="Temple Gopuram" class="temple-image">
+        </div>
+
+        <!-- Scroll hint -->
+        <div class="scroll-hint" id="scrollHint">
+            <span class="scroll-arrow">⌄</span>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+
+    <section id="invitation" class="invitation-section">
+        <!-- Decorative top border (toran) -->
+        <div class="toran-border"></div>
+
+        <!-- Teal card area -->
+        <div class="invitation-card">
+            <!-- Subtle paisley pattern overlay -->
+            <div class="paisley-overlay"></div>
+
+            <!-- Content -->
+            <div class="invitation-content">
+                <!-- Sanskrit blessing -->
+                <p class="sanskrit-text scroll-reveal delay-1" data-reveal>ॐ श्री गणेशाय नमः</p>
+
+                <!-- Ganesha motif -->
+                <div class="ganesha-container scroll-reveal-scale delay-2" data-reveal>
+                    <img src="assets/ganesha_motif.png" alt="Lord Ganesha" class="ganesha-image">
+                </div>
+
+                <!-- Blessings text -->
+                <p class="blessings-text scroll-reveal-slide-lazy delay-3" data-reveal>With the heavenly blessings of
+                </p>
+                <p class="parent-names scroll-reveal-slide-lazy delay-4" data-reveal>Smt. Parvathi Ammal &amp; Shri
+                    Krishnan Iyer
+                </p>
+
+                <div class="blessings-divider" data-reveal></div>
+
+                <p class="parent-names scroll-reveal-slide-lazy delay-5" data-reveal>Smt. Kamakshi Ammal &amp; Shri
+                    Srinivasan Iyer
+                </p>
+
+                <!-- Invite text -->
+                <h2 class="invite-heading scroll-reveal-slide-lazy delay-6" data-reveal>INVITE</h2>
+                <p class="invite-subtext scroll-reveal-slide-lazy delay-7" data-reveal>You to join us in the wedding
+                    celebrations
+                    of</p>
+
+                <!-- Couple names -->
+                <div class="couple-names-section" data-reveal-group>
+                    <h2 class="couple-name-script groom scroll-reveal-slide-lazy delay-8" data-reveal>Vishu</h2>
+                    <span class="ampersand scroll-reveal-slide-lazy delay-9" data-reveal>&amp;</span>
+                    <h2 class="couple-name-script bride scroll-reveal-slide-lazy delay-10" data-reveal>Kavya</h2>
+                </div>
+
+                <!-- Son/Daughter of -->
+                <div class="parents-detail">
+                    <div class="parent-block scroll-reveal-slide-lazy" data-reveal>
+                        <p class="relation-text">Son of</p>
+                        <p class="parent-detail-name">Smt. Parvathi Ammal &amp; Shri Krishnan Iyer</p>
+                    </div>
+                    <div class="detail-divider" data-reveal></div>
+                    <div class="parent-block scroll-reveal-slide-lazy delay-2" data-reveal>
+                        <p class="relation-text">Daughter of</p>
+                        <p class="parent-detail-name">Smt. Kamakshi Ammal &amp; Shri Srinivasan Iyer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 4: Events -->
+    <section id="events" class="events-section">
+        <div class="event-box scroll-reveal-slide-lazy" data-reveal>
+            <h3>MEHENDI</h3>
+            <p class="event-date">Friday, March 9th 2026</p>
+            <p class="event-venue">Rambagh, Jaipur</p>
+            <p class="event-time">6pm Onwards</p>
+        </div>
+        <div class="event-box scroll-reveal-slide-lazy delay-2" data-reveal>
+            <h3>SEE THE ROUTE</h3>
+            <p class="event-venue">Click to open the map</p>
+            <div class="map-icon-container">
+                <div class="map-icon"></div>
+            </div>
+        </div>
+        <div class="event-box scroll-reveal-slide-lazy delay-4" data-reveal>
+            <h3>HALDI</h3>
+            <p class="event-date">Saturday, March 10th 2026</p>
+            <p class="event-venue">Rambagh, Jaipur</p>
+            <p class="event-time">10am Onwards</p>
+        </div>
+    </section>
+
+    <!-- Page 5: Meet the Bride & Groom -->
+    <section id="bride-groom" class="bride-groom-section">
+        <h2 class="scroll-reveal-slide-lazy" data-reveal>MEET THE <br> BRIDE AND GROOM</h2>
+        <p class="story-text scroll-reveal-slide-lazy delay-2" data-reveal>
+            We are both so delighted that you are able to join us in celebrating what we hope will be one of the
+            happiest days of our lives. The affection shown to us by so many people since our Nichayathartham has been
+            incredibly moving, and has touched us both deeply. We would like to take this opportunity to thank everyone
+            most sincerely for their kindness. We are looking forward to see you at the wedding.
+        </p>
+        <div class="ornament-bottom scroll-reveal-slide-lazy delay-4" data-reveal>
+            <img src="assets/golden_ornament.png" alt="Ornament" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Page 6: Next Page / Couple Image -->
+    <section id="gallery" class="gallery-section">
+        <div class="image-frame scroll-reveal-slide-lazy" data-reveal>
+            <img src="assets/wedding_couple.png" alt="Vishu and Kavya" class="couple-img">
+        </div>
+        <h2 class="thank-you-text scroll-reveal-slide-lazy delay-2" data-reveal>Join Us in Celebration</h2>
+    </section>
+
+    <div class="sticky-audio-btn player-active">
+        <div class="play-icon"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
